@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HMJ App</string>
+    <string name="titlebar_main">Choose</string>
+    <string name="btn_list_mahasiswa">Student List</string>
+    <string name="btn_pencarian_gambar">Image Loader</string>
+    <string name="titlebar_list_mahasiswa">Student List</string>
+    <string name="btn_showlist_mahasiswa">Show List</string>
+    <string name="titlebar_load_image">Load Image</string>
+    <string name="input_url">Input URL</string>
+    <string name="btn_tampilkan_gambar">Show Image Result</string>
+    <string name="desc_image_result">image result</string>
+</resources>

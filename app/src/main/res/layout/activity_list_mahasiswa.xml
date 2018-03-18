@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.trihandayani.tri_1202154321_studycase4.ListMahasiswa">
+
+    <TextView
+        android:id="@+id/titlebar_list_mahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:paddingTop="25dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/titlebar_list_mahasiswa"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+
+    <Button
+        android:id="@+id/btn_showlist"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/titlebar_list_mahasiswa"
+        android:background="@color/colorButton"
+        android:text="@string/btn_showlist_mahasiswa"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"/>
+
+    <ListView
+        android:id="@+id/listView_list_mahasiswa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/btn_showlist" />
+
+</RelativeLayout>
